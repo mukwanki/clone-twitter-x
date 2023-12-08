@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 function Twitter(){
   return(
@@ -21,9 +22,13 @@ function Twitter(){
          <div className="tweet-body">
            <div className="tweet-actions">
              <div className="tweet-action">
-               <img src="src/images/image-tweets/Buton.png" alt="commentaire" /><p>6.8k</p>
-               <img src="src/images/image-tweets/Buton (2).png" alt="partage" /><p>38.9k</p>
-               <img src="src/images/image-tweets/Buton (3).png" alt="jaime" /><p>3.4k</p>
+               
+               <img src="src/images/image-tweets/Buton.png" alt="commentaire" />
+               <p>6.8k</p>
+               <img src="src/images/image-tweets/Buton (2).png" alt="partage" />
+               <p>38.9k</p>
+               <img src="src/images/image-tweets/Buton (3).png" alt="jaime" />
+               <p>3.4k</p>
                <img src="src/images/image-tweets/Buton (4).png" alt="telechargement" />
              </div>
            </div>
